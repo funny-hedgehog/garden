@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/garden/" element={<Layout />}>
           <Route index element={<Simple1Page />} />
           <Route path="simple2" element={<Simple2Page />} />
           <Route path="overloaded" element={<OverLoadedPage />} />
