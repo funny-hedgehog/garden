@@ -6,7 +6,7 @@ function Layout() {
   return (
     <>
       <header className="links">
-        <Link to="/simple1">Simple1</Link>
+        <Link to="/">Simple1</Link>
         <Link to="/simple2">Simple2</Link>
         <Link to="/overloaded">Overloaded</Link>
 

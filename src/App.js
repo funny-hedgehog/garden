@@ -18,7 +18,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="simple1" element={<Simple1Page />} />
+          <Route index element={<Simple1Page />} />
           <Route path="simple2" element={<Simple2Page />} />
           <Route path="overloaded" element={<OverLoadedPage />} />
 
